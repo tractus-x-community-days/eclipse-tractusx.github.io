@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeclipse_tractusx_github_io=self.webpackChunkeclipse_tractusx_github_io||[]).push([[75581],{28e3:t=>{t.exports=JSON.parse('{"label":"community","permalink":"/eclipse-tractusx.github.io/community/meeting-minutes/tags/community","allTagsPath":"/eclipse-tractusx.github.io/community/meeting-minutes/tags","count":16}')}}]);
