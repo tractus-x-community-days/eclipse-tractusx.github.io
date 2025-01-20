@@ -2,15 +2,125 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Eclipse Tractus-X Blog</title>
-        <link>https://tractus-x-community-days.github.io/eclipse-tractusx.github.io/community/meeting-minutes</link>
+        <link>https://eclipse-tractusx.github.io/community/meeting-minutes</link>
         <description>Eclipse Tractus-X Blog</description>
-        <lastBuildDate>Fri, 03 May 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 08 Nov 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
+            <title><![CDATA[Community Office Hour 2024-11-08]]></title>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-11-08</link>
+            <guid>community-office-hour-2024-11-08</guid>
+            <pubDate>Fri, 08 Nov 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Office Hour meeting minutes]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="office-hour-meeting-minutes">Office Hour meeting minutes<a class="hash-link" href="#office-hour-meeting-minutes" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="infrastructure">Infrastructure<a class="hash-link" href="#infrastructure" title="Direct link to heading">​</a></h3><ul><li>Test Environments:<ul><li>STABLE environment24.12 installations in early december</li><li>Test Management: Reference Quality Gate Checks and walkthrough them in "Test Management"</li><li>Resolved Issue with SAP DIV -&gt; Onboarding should work now</li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="release-management">Release Management<a class="hash-link" href="#release-management" title="Direct link to heading">​</a></h3><ul><li>Reminders<ul><li>use TX EDC 0.8.0 RC5 -&gt; RC6 is on its way -&gt; Rediscuss in testmanagement daily during next week<ul><li>we should improve test automation -&gt; the umbrella helm chart targets to support that</li></ul></li><li>reminder for open planning</li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="security">Security<a class="hash-link" href="#security" title="Direct link to heading">​</a></h3><ul><li>GitGuardian will be removed soon.</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="foss">FOSS<a class="hash-link" href="#foss" title="Direct link to heading">​</a></h3><ul><li><a href="https://github.com/eclipse-tractusx/eclipse-tractusx.github.io/pull/1045" target="_blank" rel="noopener noreferrer">TRG 7.09</a></li><li>discuss how to document releases between ecosystem releases and deployment experiences -&gt; ongoing / announcement</li><li>TRG about testing will come up</li><li>Mano's election ended. Reminders<ul><li>small amount of participations</li><li>points that would have been great: participation in community &amp; handling of TRGs etc.</li></ul></li><li>ClearlyDefined is down: revisit on next week and then ask via IP matrix check</li><li>MDX files in KITs: only if needed, is CC-BY-4.0</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="communityopen-planning">Community/Open Planning<a class="hash-link" href="#communityopen-planning" title="Direct link to heading">​</a></h3><ul><li>remove the .cal file and just state the time (in an international time format)</li></ul>]]></content:encoded>
+            <category>community</category>
+            <category>meeting-minutes</category>
+        </item>
+        <item>
+            <title><![CDATA[Community Office Hour 2024-10-18]]></title>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-10-18</link>
+            <guid>community-office-hour-2024-10-18</guid>
+            <pubDate>Fri, 18 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Office Hour meeting minutes]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="office-hour-meeting-minutes">Office Hour meeting minutes<a class="hash-link" href="#office-hour-meeting-minutes" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="infrastructure">Infrastructure<a class="hash-link" href="#infrastructure" title="Direct link to heading">​</a></h3><ul><li>Test Environments:<ul><li>Currently a blocking issue is with SAP. They want to do a change in the DIF deployment and we are blocked by that. Target for the change is early next week. This involves both STABLE and INT environment.</li><li>It is important that we can start with the deployment for the e2e test of 24/12 on INT, there are school holidays in southern Germany between Oct., 28th and Nov., 1st, so deployment is constrained in time.</li><li>The INT environment has to be wiped to start from scratch with the deployment for 24/12.</li><li>Doubleslash will provide information on how to proceed next week.</li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="release-management">Release Management<a class="hash-link" href="#release-management" title="Direct link to heading">​</a></h3><ul><li>EDC 0.8.0 to be used during e2e testing. There will be a RC5 early next week, that should be used as a start for e2e testing</li><li>Release check issues are due on Oct. 18th for release 24/12</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="foss">FOSS<a class="hash-link" href="#foss" title="Direct link to heading">​</a></h3><ul><li>Sources of pictures: Do we need to regulate the availability of sources for binary pictures, as there are pictures in the website repo without editable sources.<ul><li>There is already a TRG that specifies the handling of pictures. It should be controlled better by committers.</li></ul></li><li>Concerning intermediate releases, especially bugfix releases that need to be done in Tractus-X during a operating cycle. There is a task to make a proposal on how to handle the situation from Eclipse Tractus-X perspective.</li><li>Deprecation of Repos. The regulation in TRG 7.09 is currently reworked to be more precise.</li><li>Discussion on a TRG about testing.<ul><li>Doubleslash prepares a TRG concerning automated testing</li><li>Some repositories use SonarCloud and code coverage measurements there</li><li>General openness towards a new trial on some specs concering testing</li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="communityopen-planning">Community/Open Planning<a class="hash-link" href="#communityopen-planning" title="Direct link to heading">​</a></h3><ul><li>Files like presentations done during Open Planning are currently not provided in Open Source. The proposal is to store such files in the already existing large files repository attached to the webpage repo.</li><li>Open Meetings page has been enhanced, there are now relevant links like to the task board that is relevant and related release timelines</li><li>Regular New Joiner meeting was canceled. If a session is needed, it needs to be requested</li></ul>]]></content:encoded>
+            <category>community</category>
+            <category>meeting-minutes</category>
+        </item>
+        <item>
+            <title><![CDATA[Community Office Hour 2024-10-11]]></title>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-10-11</link>
+            <guid>community-office-hour-2024-10-11</guid>
+            <pubDate>Fri, 11 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Office Hour meeting minutes]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="office-hour-meeting-minutes">Office Hour meeting minutes<a class="hash-link" href="#office-hour-meeting-minutes" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="infrastructure">Infrastructure<a class="hash-link" href="#infrastructure" title="Direct link to heading">​</a></h3><ul><li><a href="https://github.com/eclipse-tractusx/eclipse-tractusx.github.io" target="_blank" rel="noopener noreferrer">eclipse-tractusx/eclipse-tractusx.github.io</a> requires just One Committer Review now<ul><li>Committers that approve: Please double-check the content, remember you have also responsibility when approving non TRG compliant content</li><li>Expectation for KITs: It should be less stressful to find a committer</li></ul></li><li>Setup Catena-X STABLE Environment<ul><li>Organizational issue that’s why the stable is not there right now but they are working on it</li><li>Questions: Will the STABLE environment stick to the released version or will it evolve with the development of the components?</li></ul></li><li>Planned general infrastructure maintenance INT environment 2024-09-29<ul><li>24.12 e2e test phase on INT environment still planned to start 25.10. as communicated in adapted timeline</li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="release-management">Release Management<a class="hash-link" href="#release-management" title="Direct link to heading">​</a></h3><ul><li>EDC 0.8.0 to be used during e2e testing.<ul><li>The upcoming Eclipse Tractus-X 24.12 release will include EDC version 0.8.0.</li><li>If your component relies on the Eclipse DataspaceConnector (EDC), we highly encourage you to align your development and testing efforts with this version to ensure compatibility.</li></ul></li><li>Reminder for Refinement Day 1: 16.10<ul><li>Each group will focus on the first steps of skeleton-building for their features, based on the feature template, mapping them to the related roadmap items<ul><li>For more information please read the <a href="https://eclipse-tractusx.github.io/blog/refinement-day-1-R25.03" target="_blank" rel="noopener noreferrer">news blog</a></li></ul></li></ul></li><li>Reminder for Refinement Day 2: 06.11<ul><li>Build on the work from Refinement Day 1 and focus primarily on the identified dependencies<ul><li>For more information, please read the <a href="https://eclipse-tractusx.github.io/blog/refinement-day-2-R25.03" target="_blank" rel="noopener noreferrer">news blog</a></li></ul></li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="security">Security<a class="hash-link" href="#security" title="Direct link to heading">​</a></h3><ul><li>[Trufflehog Update]<!-- --> Deprecation of GitGuardian and mandatory update to Trufflehog<ul><li>Please update your repositories</li><li>There are still many issues opened and waiting to be resolved by their responsible committer<ul><li><a href="https://github.com/eclipse-tractusx/sig-security/issues/86" target="_blank" rel="noopener noreferrer">Parent Issue</a></li></ul></li><li>The Trufflehog Workflow is a active <a href="https://eclipse-tractusx.github.io/docs/release/trg-8/trg-8-03/" target="_blank" rel="noopener noreferrer">TRG</a> since March 26,2024</li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="foss">FOSS<a class="hash-link" href="#foss" title="Direct link to heading">​</a></h3><ul><li>TRG proposal for product deprecation including a process and criteria to close <a href="https://github.com/eclipse-tractusx/eclipse-tractusx.github.io/issues/1037" target="_blank" rel="noopener noreferrer">Issue #1037</a></li><li>Please review and  provide some input</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="feedback--question--request">Feedback / Question / Request<a class="hash-link" href="#feedback--question--request" title="Direct link to heading">​</a></h3><ul><li>Add Testmanagement timeline into timeline of the overall release</li></ul>]]></content:encoded>
+            <category>community</category>
+            <category>meeting-minutes</category>
+        </item>
+        <item>
+            <title><![CDATA[Community Office Hour 2024-07-26]]></title>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-07-26</link>
+            <guid>community-office-hour-2024-07-26</guid>
+            <pubDate>Fri, 30 Aug 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Office Hour meeting minutes]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="office-hour-meeting-minutes">Office Hour meeting minutes<a class="hash-link" href="#office-hour-meeting-minutes" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="infrastructure">Infrastructure<a class="hash-link" href="#infrastructure" title="Direct link to heading">​</a></h3><ul><li>@ds-hzimmer will continue to report from the monthly infrastructure updates that are to happen every month's last sunday.<ul><li>product teams will have to check their deployments after that</li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="security-team">Security team<a class="hash-link" href="#security-team" title="Direct link to heading">​</a></h3><ul><li>Trufflehog has now officially replaced GitGuardian as secret-scanning tool for Eclipse Tractus-X. <a href="https://eclipse-tractusx.github.io/docs/release/trg-8/trg-8-03" target="_blank" rel="noopener noreferrer">This is encoded by TRG8.03</a></li><li>@ds-hzimmer reports about the sporadic use of the current sonarcloud instance for Eclipse Tractus-X. There's no TRG for it. It's unclear what additional benefit it will bring to those tools that are backed up with TRGs (Trufflehog, trivy, codeql).</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="qa">Q&amp;A<a class="hash-link" href="#qa" title="Direct link to heading">​</a></h3><ul><li>@tom-rm-meyer-ISST reports issues with the tls provider which will be checked with the infrastructure team.</li></ul>]]></content:encoded>
+            <category>community</category>
+            <category>meeting-minutes</category>
+        </item>
+        <item>
+            <title><![CDATA[Community Office Hour 2024-08-02]]></title>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-08-02</link>
+            <guid>community-office-hour-2024-08-02</guid>
+            <pubDate>Fri, 02 Aug 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Office Hour meeting minutes]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="office-hour-meeting-minutes">Office Hour meeting minutes<a class="hash-link" href="#office-hour-meeting-minutes" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="infrastructure">Infrastructure<a class="hash-link" href="#infrastructure" title="Direct link to heading">​</a></h3><ul><li>Discussion on catenax-ng<ul><li>@matbmoser: please cross-check your own repository, if you reference it!</li><li>@lgblaumeiser: we noticed that the R24.03 MIW needs catenax-ng resources. It temporarily stays up. (see <a href="https://github.com/eclipse-tractusx/managed-identity-wallet/issues/342" target="_blank" rel="noopener noreferrer">issue</a>)</li></ul></li><li>Consortia teams are gone. Thanks, it was a pleasure! </li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="security-team">Security team<a class="hash-link" href="#security-team" title="Direct link to heading">​</a></h3><ul><li>@matbmoser: Please do check for your security issues on the tab. High and critical issues need to be fixed. We should check this on high level / project level regularly in this meeting</li><li>@tom-rm-meyer-ISST: For Truffle Hog, make sure that the workflow runs before merging. (see <a href="/community/meeting-minutes/eclipse-tractusx/puris#531">e.g.</a>)</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="foss">FOSS<a class="hash-link" href="#foss" title="Direct link to heading">​</a></h3><ul><li>@AngelikaWittek is gone. Thanks for your work!</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="open-planning--community">Open planning / community<a class="hash-link" href="#open-planning--community" title="Direct link to heading">​</a></h3><ul><li>@stephanbcbauer: <ul><li>Refinement Phase went well overall. Committers please join the planning meetings.</li><li>Some QGates are still open, please check.</li><li>Review together the <a href="https://github.com/eclipse-tractusx/tractus-x-release/pull/34" target="_blank" rel="noopener noreferrer">release preparation</a></li></ul></li></ul>]]></content:encoded>
+            <category>community</category>
+            <category>meeting-minutes</category>
+        </item>
+        <item>
+            <title><![CDATA[Community Office Hour 2024-07-26]]></title>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-07-26</link>
+            <guid>community-office-hour-2024-07-26</guid>
+            <pubDate>Fri, 26 Jul 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Office Hour meeting minutes]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="office-hour-meeting-minutes">Office Hour meeting minutes<a class="hash-link" href="#office-hour-meeting-minutes" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="infrastructure">Infrastructure<a class="hash-link" href="#infrastructure" title="Direct link to heading">​</a></h3><ul><li>@ds-hzimmer will continue to report from the monthly infrastructure updates that are to happen every month's last sunday.<ul><li>product teams will have to check their deployments after that</li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="security-team">Security team<a class="hash-link" href="#security-team" title="Direct link to heading">​</a></h3><ul><li>Trufflehog has now officially replaced GitGuardian as secret-scanning tool for Eclipse Tractus-X. <a href="https://eclipse-tractusx.github.io/docs/release/trg-8/trg-8-03" target="_blank" rel="noopener noreferrer">This is encoded by TRG8.03</a></li><li>@ds-hzimmer reports about the sporadic use of the current sonarcloud instance for Eclipse Tractus-X. There's no TRG for it. It's unclear what additional benefit it will bring to those tools that are backed up with TRGs (Trufflehog, trivy, codeql).</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="qa">Q&amp;A<a class="hash-link" href="#qa" title="Direct link to heading">​</a></h3><ul><li>@tom-rm-meyer-ISST reports issues with the tls provider which will be checked with the infrastructure team.</li></ul>]]></content:encoded>
+            <category>community</category>
+            <category>meeting-minutes</category>
+        </item>
+        <item>
+            <title><![CDATA[Community Office Hour 2024-07-05]]></title>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-07-05</link>
+            <guid>community-office-hour-2024-07-05</guid>
+            <pubDate>Fri, 05 Jul 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Office Hour meeting minutes]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="office-hour-meeting-minutes">Office Hour meeting minutes<a class="hash-link" href="#office-hour-meeting-minutes" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="infrastructure">Infrastructure<a class="hash-link" href="#infrastructure" title="Direct link to heading">​</a></h3><ul><li>Info from Test / Infrastructure Management CX Association by <a href="https://github.com/ds-hzimmer" target="_blank" rel="noopener noreferrer">Harald</a>:<ul><li>SAP DIM follow up meeting with on 8.7.2024 together with Christian Lahmer (SAP) and Evelyn Gurschler and DoubleSlash Net-Business GmbH</li><li>Work-in-progress with SDE team and importing of test cases</li><li>Access is currently limited –&gt; would be great to make it accessible and available within Tractus-X</li></ul></li><li><a href="https://github.com/tomaszbarwicki" target="_blank" rel="noopener noreferrer">Tomasz</a> -	Presented about how do you need to publish your API using .tractusx metafile and publish via GitHub pages - <a href="https://github.com/eclipse-tractusx/api-hub" target="_blank" rel="noopener noreferrer">API Hub</a>.</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="security-team">Security team<a class="hash-link" href="#security-team" title="Direct link to heading">​</a></h3><ul><li>Info from security team by <a href="https://github.com/RoKrish14" target="_blank" rel="noopener noreferrer">Rohan</a>:<ul><li>Reminder about replacement of GitGuardian with TruffleHog, see according pull request to update TX release guideline: <a href="https://github.com/eclipse-tractusx/eclipse-tractusx.github.io/pull/950" target="_blank" rel="noopener noreferrer">#950</a></li><li>Reminder about updates to Trivy workflow , see according pull request to update TX release guideline: <a href="https://github.com/eclipse-tractusx/eclipse-tractusx.github.io/pull/949" target="_blank" rel="noopener noreferrer">#949</a></li><li>Reminder about about absence of security team members from August 2024</li><li>Security tools walkthrough in the Committers Meeting of July 5, 2024 (about 20 minutes) - <a href="https://github.com/RoKrish14" target="_blank" rel="noopener noreferrer">Rohan</a> will announce the walkthrough next week on the TX mailing list while sending out a reminder for the meeting</li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="foss">FOSS<a class="hash-link" href="#foss" title="Direct link to heading">​</a></h3><ul><li>Don't forget to update the legal docs!! Close the tickets in your repositories if its done: <a href="https://github.com/eclipse-tractusx/sig-infra/issues/477" target="_blank" rel="noopener noreferrer">eclipse-tractusx/sig-infra#477</a></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="open-planning--community">Open planning / community<a class="hash-link" href="#open-planning--community" title="Direct link to heading">​</a></h3><ul><li>Info by community manager <a href="https://github.com/stephanbcbauer" target="_blank" rel="noopener noreferrer">Stephan</a> about the Tractus-X/Catena-X working model and the refinement phase for the 24.12 release</li><li><a href="https://eveeno.com/126949167" target="_blank" rel="noopener noreferrer">Registration</a> is open for the Third Eclipse Tractus-X Community Days on December 05 and 06, 2024, ARENA2036 in Stuttgart!</li></ul>]]></content:encoded>
+            <category>community</category>
+            <category>meeting-minutes</category>
+        </item>
+        <item>
+            <title><![CDATA[Security Office Hour 2024-07-04]]></title>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/security-office-hour-2024-07-04</link>
+            <guid>security-office-hour-2024-07-04</guid>
+            <pubDate>Thu, 04 Jul 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Security Office Hour meeting minutes]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="security-office-hour-meeting-minutes">Security Office Hour meeting minutes<a class="hash-link" href="#security-office-hour-meeting-minutes" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="announcements">Announcements<a class="hash-link" href="#announcements" title="Direct link to heading">​</a></h3><ul><li>Gitguardian tool for secret scanning will be replaced by TruffleHog. This will be used in parallel with Github's native secret scanning tool.</li><li>Trivy workflow has been updated to address the failure of workflows</li><li>Announcement of Security handover during the committer round</li></ul>]]></content:encoded>
+            <category>meeting-minutes</category>
+            <category>security</category>
+        </item>
+        <item>
+            <title><![CDATA[Community Office Hour 2024-06-28]]></title>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-06-28</link>
+            <guid>community-office-hour-2024-06-28</guid>
+            <pubDate>Fri, 28 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Office Hour meeting minutes]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="office-hour-meeting-minutes">Office Hour meeting minutes<a class="hash-link" href="#office-hour-meeting-minutes" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="infrastructure">Infrastructure<a class="hash-link" href="#infrastructure" title="Direct link to heading">​</a></h3><ul><li>Info from Test / Infrastructure Management CX Association by <a href="https://github.com/ds-hzimmer" target="_blank" rel="noopener noreferrer">Harald</a>:<ul><li>status of product onboarding and deployment progression to new environment</li><li>clarifying dependencies, resolving blockers is ongoing</li><li>handover of test cases to new CX Association Xray</li><li>Invitation to E2E Test Management Daily beginning Monday (July 1, 2024): frequency determined determined to half an hour every 2nd day</li></ul></li><li>Status about current works on API publishing by <a href="https://github.com/tomaszbarwicki" target="_blank" rel="noopener noreferrer">Tomasz</a> currently in progress: a separate repository to store API docs and publish via GitHub pages - <a href="https://github.com/eclipse-tractusx/api-hub" target="_blank" rel="noopener noreferrer">API Hub</a> - was created. He will present the topic a bit more hands on in one of the upcoming office hours</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="security-team">Security team<a class="hash-link" href="#security-team" title="Direct link to heading">​</a></h3><ul><li>Info from security team by <a href="https://github.com/RoKrish14" target="_blank" rel="noopener noreferrer">Rohan</a>:<ul><li>Replacement of GitGuardian with TruffleHog, see according pull request to update TX release guideline: <a href="https://github.com/eclipse-tractusx/eclipse-tractusx.github.io/pull/950" target="_blank" rel="noopener noreferrer">#950</a></li><li>Updates to Trivy workflow , see according pull request to update TX release guideline: <a href="https://github.com/eclipse-tractusx/eclipse-tractusx.github.io/pull/949" target="_blank" rel="noopener noreferrer">#949</a></li><li>Security tools walkthrough in the Committers Meeting of July 5, 2024 (about 20 minutes) - <a href="https://github.com/RoKrish14" target="_blank" rel="noopener noreferrer">Rohan</a> will announce the walkthrough next week on the TX mailing list while sending out a reminder for the meeting</li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="foss">FOSS<a class="hash-link" href="#foss" title="Direct link to heading">​</a></h3><ul><li>Committer Election for <a href="https://github.com/ds-lcapellino" target="_blank" rel="noopener noreferrer">Lucas</a> concluded successfully, congratulations and welcome!</li><li>Don't forget to update the legal docs!! Close the tickets in your repositories if its done: <a href="https://github.com/eclipse-tractusx/sig-infra/issues/477" target="_blank" rel="noopener noreferrer">eclipse-tractusx/sig-infra#477</a></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="open-planning--community">Open planning / community<a class="hash-link" href="#open-planning--community" title="Direct link to heading">​</a></h3><ul><li>Info by community manager <a href="https://github.com/stephanbcbauer" target="_blank" rel="noopener noreferrer">Stephan</a> about the Tractus-X/Catena-X working model and the refinement phase for the 24.12 release, which started this week, for more information see <a href="https://www.eclipse.org/lists/tractusx-dev/msg00434.html" target="_blank" rel="noopener noreferrer">TX mailing list: R24.12 next steps in refinement phase</a></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="discussions">Discussions<a class="hash-link" href="#discussions" title="Direct link to heading">​</a></h3><ul><li><a href="https://github.com/evegufy" target="_blank" rel="noopener noreferrer">Evelyn</a> suggested a consistent storing for environment specific deployment configuration (helm values files) in TX repositories:<ul><li>IF products teams store deployment configuration in TX, it should be stored in a separate directory at root level (/environments) and the notice file should explain it is need for the end-to-end testing of TX releases</li><li>no deployment configuration other than the one used for the official E2E Testing of TX releases should be kept in TX</li><li>suggestion is not intended to promote the storing of this configuration in TX but if you do it, do it as proper as possible</li><li>a benefit from (properly) storing the configuration in TX is the versioning with the TX GitHub releases, allowing to easily trace back the exact configuration used for testing</li><li>other options for handling environment specific deployment configuration outside of TX were discussed as well as the option of <a href="https://argo-cd.readthedocs.io/en/stable/user-guide/multiple_sources/" target="_blank" rel="noopener noreferrer">multiple sources for Argo CD</a> was mentioned by <a href="https://github.com/carslen" target="_blank" rel="noopener noreferrer">Carsten</a></li></ul></li><li><a href="https://github.com/stephanbcbauer" target="_blank" rel="noopener noreferrer">Stephan</a> was wondering about how to handle outdated information on the <a href="https://eclipse-tractusx.github.io/community/products/" target="_blank" rel="noopener noreferrer">TX Product Page</a>:<ul><li>product teams should check if the information on the page is still up to date, <a href="https://github.com/stephanbcbauer" target="_blank" rel="noopener noreferrer">Stephan</a> will write send a reminder on the TX mailing list</li><li><a href="https://github.com/arnoweiss" target="_blank" rel="noopener noreferrer">Arno</a> mentioned that he would update the products which are still outdated in a couple of weeks, thanks for volunteering!</li></ul></li></ul>]]></content:encoded>
+            <category>community</category>
+            <category>meeting-minutes</category>
+        </item>
+        <item>
+            <title><![CDATA[Community Office Hour 2024-06-21]]></title>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-06-21</link>
+            <guid>community-office-hour-2024-06-21</guid>
+            <pubDate>Fri, 21 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Office Hour meeting minutes]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="office-hour-meeting-minutes">Office Hour meeting minutes<a class="hash-link" href="#office-hour-meeting-minutes" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="infrastructure">Infrastructure<a class="hash-link" href="#infrastructure" title="Direct link to heading">​</a></h3><ul><li>Info from Test Management will be taken over by <a href="https://github.com/ds-hzimmer" target="_blank" rel="noopener noreferrer">Harald Zimmer</a>, please contact with your product owners to get a meeting with Harald and get the access if you are in the association.</li><li>Feedback requested from <a href="https://github.com/ds-hzimmer" target="_blank" rel="noopener noreferrer">Harald Zimmer</a> for who is using: <a href="https://github.com/catenax-ng/product-test-data-generator" target="_blank" rel="noopener noreferrer">https://github.com/catenax-ng/product-test-data-generator</a></li><li>Branch protecting example provided by <a href="https://github.com/tom-rm-meyer-ISST" target="_blank" rel="noopener noreferrer">Tom Meyer</a></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="security-team">Security team<a class="hash-link" href="#security-team" title="Direct link to heading">​</a></h3><ul><li>No security team will be available for R24.08, <a href="https://github.com/RoKrish14" target="_blank" rel="noopener noreferrer">Rohan Krish</a> has told he will be going in July, contact him if you know who will be responsible for security in the Association.</li><li>Handover from <a href="https://github.com/RoKrish14" target="_blank" rel="noopener noreferrer">Rohan Krishnamurthy</a> will be done in this ticket: <a href="https://github.com/eclipse-tractusx/sig-security/issues/83" target="_blank" rel="noopener noreferrer">https://github.com/eclipse-tractusx/sig-security/issues/83</a></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="foss">FOSS<a class="hash-link" href="#foss" title="Direct link to heading">​</a></h3><ul><li>Committer Election for <a href="https://github.com/arnoweiss" target="_blank" rel="noopener noreferrer">Lucas Capellino</a>, please vote if you are a committer!</li><li><a href="https://github.com/evegufy" target="_blank" rel="noopener noreferrer">Evelyn Gurschler</a> election to project lead concluded successfully, congratulations to our new project lead!</li><li><a href="https://projects.eclipse.org/projects/automotive.tractusx/elections/election-lucas-capellino-eclipse-tractus-x" target="_blank" rel="noopener noreferrer">Committer Election</a> for <a href="https://github.com/ds-lcapellino" target="_blank" rel="noopener noreferrer">Lucas Capellino</a> open for voting again</li><li>Don't forget to update the legal docs!! Close the tickets in your repositories if its done: <a href="https://github.com/eclipse-tractusx/sig-infra/issues/477" target="_blank" rel="noopener noreferrer">eclipse-tractusx/sig-infra#477</a></li><li>1.000 Lines of code in PRs for non-contributors require project Ip check: <a href="https://www.eclipse.org/projects/handbook/#ip-project-content" target="_blank" rel="noopener noreferrer">https://www.eclipse.org/projects/handbook/#ip-project-content</a></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="open-planning--community">Open planning / community<a class="hash-link" href="#open-planning--community" title="Direct link to heading">​</a></h3><ul><li>Every office hour there will be a slot to talk about the current process of the working model of Tractus-X/Catena-X. With the updates from the community.</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="discussions">Discussions<a class="hash-link" href="#discussions" title="Direct link to heading">​</a></h3><ul><li>Mermaid version in current docussaurus for the tractus-x webpage do not support specific type block-beta and xychart-beta.<ul><li><a href="https://github.com/stephanbcbauer" target="_blank" rel="noopener noreferrer">Stephan Bauer</a> will test to upgrade the version of docussaurus in the Catena-X e.V. Repository.</li></ul></li></ul>]]></content:encoded>
+            <category>community</category>
+            <category>meeting-minutes</category>
+        </item>
+        <item>
+            <title><![CDATA[Security Office Hour 2024-06-20]]></title>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/security-office-hour-2024-06-20</link>
+            <guid>security-office-hour-2024-06-20</guid>
+            <pubDate>Thu, 20 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Security Office Hour meeting minutes]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="security-office-hour-meeting-minutes">Security Office Hour meeting minutes<a class="hash-link" href="#security-office-hour-meeting-minutes" title="Direct link to heading">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="announcements">Announcements<a class="hash-link" href="#announcements" title="Direct link to heading">​</a></h3><ul><li>Reminder about former GitHub Organisation Catenax-ng</li><li>Reminder to remove any test credentials/sensitive that are present in Catenax-ng</li><li>Reminder to look for the results of the security scans after migration to Eclipse Tractus-x</li></ul>]]></content:encoded>
+            <category>security</category>
+            <category>meeting-minutes</category>
+        </item>
+        <item>
             <title><![CDATA[Community Office Hour 2024-05-03]]></title>
-            <link>https://tractus-x-community-days.github.io/eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-05-03</link>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-05-03</link>
             <guid>community-office-hour-2024-05-03</guid>
             <pubDate>Fri, 03 May 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Office Hour meeting minutes]]></description>
@@ -21,7 +131,7 @@ Some Teams already documented on GitHub.</li></ul></li></ul>]]></content:encoded
         </item>
         <item>
             <title><![CDATA[Community Office Hour 2024-04-26]]></title>
-            <link>https://tractus-x-community-days.github.io/eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-04-26</link>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-04-26</link>
             <guid>community-office-hour-2024-04-26</guid>
             <pubDate>Fri, 26 Apr 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Office Hour meeting minutes]]></description>
@@ -31,7 +141,7 @@ Some Teams already documented on GitHub.</li></ul></li></ul>]]></content:encoded
         </item>
         <item>
             <title><![CDATA[Community Office Hour 2024-04-19]]></title>
-            <link>https://tractus-x-community-days.github.io/eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-04-19</link>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-04-19</link>
             <guid>community-office-hour-2024-04-19</guid>
             <pubDate>Fri, 19 Apr 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Office Hour meeting minutes]]></description>
@@ -46,7 +156,7 @@ being investigated and an update will be provided soon.</li></ul>]]></content:en
         </item>
         <item>
             <title><![CDATA[Commiter Meeting 12.04.2024]]></title>
-            <link>https://tractus-x-community-days.github.io/eclipse-tractusx.github.io/community/meeting-minutes/committer-meeting-12-04-2024</link>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/committer-meeting-12-04-2024</link>
             <guid>committer-meeting-12-04-2024</guid>
             <pubDate>Fri, 12 Apr 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Committer meeting - meeting minutes]]></description>
@@ -58,7 +168,7 @@ being investigated and an update will be provided soon.</li></ul>]]></content:en
         </item>
         <item>
             <title><![CDATA[Community Office Hour 2024-04-12]]></title>
-            <link>https://tractus-x-community-days.github.io/eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-04-12</link>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-04-12</link>
             <guid>community-office-hour-2024-04-12</guid>
             <pubDate>Fri, 12 Apr 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Office Hour meeting minutes]]></description>
@@ -68,7 +178,7 @@ being investigated and an update will be provided soon.</li></ul>]]></content:en
         </item>
         <item>
             <title><![CDATA[Security Office Hour 2024-04-11]]></title>
-            <link>https://tractus-x-community-days.github.io/eclipse-tractusx.github.io/community/meeting-minutes/security-office-hour-2024-04-11</link>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/security-office-hour-2024-04-11</link>
             <guid>security-office-hour-2024-04-11</guid>
             <pubDate>Thu, 11 Apr 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Security Office Hour meeting minutes]]></description>
@@ -78,7 +188,7 @@ being investigated and an update will be provided soon.</li></ul>]]></content:en
         </item>
         <item>
             <title><![CDATA[Community Office Hour 2024-04-05]]></title>
-            <link>https://tractus-x-community-days.github.io/eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-04-05</link>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-04-05</link>
             <guid>community-office-hour-2024-04-05</guid>
             <pubDate>Fri, 05 Apr 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Office Hour meeting minutes]]></description>
@@ -93,7 +203,7 @@ while</li><li>If this is an issue for anyone, please push that topic again</li><
         </item>
         <item>
             <title><![CDATA[Security Office Hour 2024-03-28]]></title>
-            <link>https://tractus-x-community-days.github.io/eclipse-tractusx.github.io/community/meeting-minutes/security-office-hour-2024-03-28</link>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/security-office-hour-2024-03-28</link>
             <guid>security-office-hour-2024-03-28</guid>
             <pubDate>Thu, 28 Mar 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Security Office Hour meeting minutes]]></description>
@@ -103,7 +213,7 @@ while</li><li>If this is an issue for anyone, please push that topic again</li><
         </item>
         <item>
             <title><![CDATA[Community Office Hour 2024-03-22]]></title>
-            <link>https://tractus-x-community-days.github.io/eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-03-22</link>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-03-22</link>
             <guid>community-office-hour-2024-03-22</guid>
             <pubDate>Fri, 22 Mar 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Office Hour meeting minutes]]></description>
@@ -113,7 +223,7 @@ while</li><li>If this is an issue for anyone, please push that topic again</li><
         </item>
         <item>
             <title><![CDATA[Community Office Hour 2024-03-15]]></title>
-            <link>https://tractus-x-community-days.github.io/eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-03-15</link>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-03-15</link>
             <guid>community-office-hour-2024-03-15</guid>
             <pubDate>Fri, 15 Mar 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Office Hour meeting minutes]]></description>
@@ -123,7 +233,7 @@ while</li><li>If this is an issue for anyone, please push that topic again</li><
         </item>
         <item>
             <title><![CDATA[Security Office Hour 2024-03-14]]></title>
-            <link>https://tractus-x-community-days.github.io/eclipse-tractusx.github.io/community/meeting-minutes/security-office-hour-2024-03-14</link>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/security-office-hour-2024-03-14</link>
             <guid>security-office-hour-2024-03-14</guid>
             <pubDate>Thu, 14 Mar 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Security Office Hour meeting minutes]]></description>
@@ -133,7 +243,7 @@ while</li><li>If this is an issue for anyone, please push that topic again</li><
         </item>
         <item>
             <title><![CDATA[Community Office Hour 2024-03-08]]></title>
-            <link>https://tractus-x-community-days.github.io/eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-03-08</link>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-03-08</link>
             <guid>community-office-hour-2024-03-08</guid>
             <pubDate>Fri, 08 Mar 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Office Hour meeting minutes]]></description>
@@ -156,7 +266,7 @@ A TRG could include information on where these guide should be located and in wh
         </item>
         <item>
             <title><![CDATA[Community Office Hour 2024-03-01]]></title>
-            <link>https://tractus-x-community-days.github.io/eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-03-01</link>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-03-01</link>
             <guid>community-office-hour-2024-03-01</guid>
             <pubDate>Fri, 01 Mar 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Tractus-X Office Hour meeting minutes]]></description>
@@ -166,7 +276,7 @@ A TRG could include information on where these guide should be located and in wh
         </item>
         <item>
             <title><![CDATA[Security Office Hour 2024-02-29]]></title>
-            <link>https://tractus-x-community-days.github.io/eclipse-tractusx.github.io/community/meeting-minutes/security-office-hour-2024-02-29</link>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/security-office-hour-2024-02-29</link>
             <guid>security-office-hour-2024-02-29</guid>
             <pubDate>Thu, 29 Feb 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Security Office Hour meeting minutes]]></description>
@@ -176,7 +286,7 @@ A TRG could include information on where these guide should be located and in wh
         </item>
         <item>
             <title><![CDATA[Community Office Hour 2024-02-23]]></title>
-            <link>https://tractus-x-community-days.github.io/eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-02-23</link>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-02-23</link>
             <guid>community-office-hour-2024-02-23</guid>
             <pubDate>Fri, 23 Feb 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Office Hour meeting minutes]]></description>
@@ -186,7 +296,7 @@ A TRG could include information on where these guide should be located and in wh
         </item>
         <item>
             <title><![CDATA[Community Office Hour 2024-02-16]]></title>
-            <link>https://tractus-x-community-days.github.io/eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-02-16</link>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-02-16</link>
             <guid>community-office-hour-2024-02-16</guid>
             <pubDate>Fri, 16 Feb 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Office Hour meeting minutes]]></description>
@@ -196,7 +306,7 @@ A TRG could include information on where these guide should be located and in wh
         </item>
         <item>
             <title><![CDATA[Community Office Hour 2024-02-09]]></title>
-            <link>https://tractus-x-community-days.github.io/eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-02-09</link>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-02-09</link>
             <guid>community-office-hour-2024-02-09</guid>
             <pubDate>Fri, 09 Feb 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[office hour meeting minutes]]></description>
@@ -206,7 +316,7 @@ A TRG could include information on where these guide should be located and in wh
         </item>
         <item>
             <title><![CDATA[Community Office Hour 2024-02-02]]></title>
-            <link>https://tractus-x-community-days.github.io/eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-02-02</link>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-02-02</link>
             <guid>community-office-hour-2024-02-02</guid>
             <pubDate>Fri, 02 Feb 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[office hour meeting minutes]]></description>
@@ -216,7 +326,7 @@ A TRG could include information on where these guide should be located and in wh
         </item>
         <item>
             <title><![CDATA[Community Office hour 2024-01-26]]></title>
-            <link>https://tractus-x-community-days.github.io/eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-01-26</link>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-01-26</link>
             <guid>community-office-hour-2024-01-26</guid>
             <pubDate>Fri, 26 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[office hour meeting minutes]]></description>
@@ -234,7 +344,7 @@ one versioning strategy.</li><li>An alternative for MS Teams should be found as 
         </item>
         <item>
             <title><![CDATA[Community Office hour 2024-01-19]]></title>
-            <link>https://tractus-x-community-days.github.io/eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-01-19</link>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/community-office-hour-2024-01-19</link>
             <guid>community-office-hour-2024-01-19</guid>
             <pubDate>Fri, 19 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[office hour meeting minutes]]></description>
@@ -244,7 +354,7 @@ one versioning strategy.</li><li>An alternative for MS Teams should be found as 
         </item>
         <item>
             <title><![CDATA[New Open Meeting blog]]></title>
-            <link>https://tractus-x-community-days.github.io/eclipse-tractusx.github.io/community/meeting-minutes/new-open-meeting-blog</link>
+            <link>https://eclipse-tractusx.github.io/community/meeting-minutes/new-open-meeting-blog</link>
             <guid>new-open-meeting-blog</guid>
             <pubDate>Wed, 06 Dec 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[New home for open meeting minutes]]></description>

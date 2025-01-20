@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkeclipse_tractusx_github_io=self.webpackChunkeclipse_tractusx_github_io||[]).push([[42199],{85770:e=>{e.exports=JSON.parse('{"permalink":"/eclipse-tractusx.github.io/blog/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":13,"previousPage":"/eclipse-tractusx.github.io/blog","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
