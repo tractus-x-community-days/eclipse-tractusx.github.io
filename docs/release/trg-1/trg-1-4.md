@@ -100,13 +100,13 @@ A description how to modify and update our diagrams is provided in our documenta
 Example explanation how the diagram was modified:
 
 - checkout the repository
-- open the `docs/alice-bob-drawio.svg` file with [draw.io](https://app.diagrams.net/)
+- open the `docs/alice-bob-.svg` file with [draw.io](https://app.diagrams.net/)
 - modify the diagram
 - save the diagram as `.svg` file
 - ... pr process ...
 
 ```markdown
-![alice-bob-as-image](../../../docs/images/alice-bob-drawio.svg)
+![alice-bob-as-image](../../../docs/images/alice-bob-.svg)
 ```
 
 ## Technical requirements
