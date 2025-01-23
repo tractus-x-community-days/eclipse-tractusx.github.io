@@ -17,26 +17,26 @@
  * SPDX-License-Identifier: Apache-2.0
  ********************************************************************************/
 
-import Agents_Kit from "@site/static/img/kits/agents/agents-kit-gallery.drawio.svg";
-import BehaviourTwin_Kit from "@site/static/img/kits/behavior-twin/behavior-twin-kit-gallery.drawio.svg";
-import Business_Kit from "@site/static/img/kits/business-partner/business-partner-gallery.drawio.svg";
-import Circularity_Kit from "@site/static/img/kits/circularity/circularity-kit-gallery.drawio.svg";
-import Connector_Kit from "@site/static/img/kits/connector/connector-kit-gallery.drawio.svg";
-import DataChain_Kit from "@site/static/img/kits/data-chain/data-chain-kit-gallery.drawio.svg";
-import DDQM from "@site/static/img/kits/data-driven-quality-management/data-driven-quality-management-kit-gallery.drawio.svg";
-import DemandandCapacityManagement_Kit from "@site/static/img/kits/demand-and-capacity-management/demand-and-capacity-management-kit-gallery.drawio.svg";
-import DigitalTwin from "@site/static/img/kits/digital-twin/digital-twin-kit-gallery.drawio.svg";
-import EcoPass from "@site/static/img/kits/eco-pass/eco-pass-kit-gallery.drawio.svg";
-import ESS_Kit from "@site/static/img/kits/ess/ess-kit-gallery.drawio.svg";
-import Industry_Kit from "@site/static/img/kits/industry-core/industry-core-kit-gallery.drawio.svg";
-import Maas_Kit from "@site/static/img/kits/manufacturing-as-a-service/maas-kit-gallery.drawio.svg";
-import MBP_Kit from "@site/static/img/kits/model-based-production/model-based-production-kit-gallery.drawio.svg";
-import ModularProduction_Kit from "@site/static/img/kits/modular-production/modular-production-kit-gallery.drawio.svg";
-import OnlineSimulation from "@site/static/img/kits/osim/osim-kit-gallery.drawio.svg";
-import PCF_Kit from "@site/static/img/kits/pcf/pcf-kit-gallery.drawio.svg";
-import PURIS_Kit from '@site/static/img/kits/puris/puris-kit-gallery.drawio.svg';
-import SupplyChainsDisruptionNotifications_Kit from "@site/static/img/kits/supply-chain-disruption-notification/supply-chain-disruption-notification-kit-gallery.drawio.svg";
-import Traceability_Kit from "@site/static/img/kits/traceability/traceability-kit-gallery.drawio.svg";
+import Agents_Kit from "@site/static/img/kits/agents/agents-kit-gallery.svg";
+import BehaviourTwin_Kit from "@site/static/img/kits/behavior-twin/behavior-twin-kit-gallery.svg";
+import Business_Kit from "@site/static/img/kits/business-partner/business-partner-gallery.svg";
+import Circularity_Kit from "@site/static/img/kits/circularity/circularity-kit-gallery.svg";
+import Connector_Kit from "@site/static/img/kits/connector/connector-kit-gallery.svg";
+import DataChain_Kit from "@site/static/img/kits/data-chain/data-chain-kit-gallery.svg";
+import DDQM from "@site/static/img/kits/data-driven-quality-management/data-driven-quality-management-kit-gallery.svg";
+import DemandandCapacityManagement_Kit from "@site/static/img/kits/demand-and-capacity-management/demand-and-capacity-management-kit-gallery.svg";
+import DigitalTwin from "@site/static/img/kits/digital-twin/digital-twin-kit-gallery.svg";
+import EcoPass from "@site/static/img/kits/eco-pass/eco-pass-kit-gallery.svg";
+import ESS_Kit from "@site/static/img/kits/ess/ess-kit-gallery.svg";
+import Industry_Kit from "@site/static/img/kits/industry-core/industry-core-kit-gallery.svg";
+import Maas_Kit from "@site/static/img/kits/manufacturing-as-a-service/maas-kit-gallery.svg";
+import MBP_Kit from "@site/static/img/kits/model-based-production/model-based-production-kit-gallery.svg";
+import ModularProduction_Kit from "@site/static/img/kits/modular-production/modular-production-kit-gallery.svg";
+import OnlineSimulation from "@site/static/img/kits/osim/osim-kit-gallery.svg";
+import PCF_Kit from "@site/static/img/kits/pcf/pcf-kit-gallery.svg";
+import PURIS_Kit from '@site/static/img/kits/puris/puris-kit-gallery.svg';
+import SupplyChainsDisruptionNotifications_Kit from "@site/static/img/kits/supply-chain-disruption-notification/supply-chain-disruption-notification-kit-gallery.svg";
+import Traceability_Kit from "@site/static/img/kits/traceability/traceability-kit-gallery.svg";
 
 // import MoreToCome from "@site/static/img/gallery-more_coming-minified.png";
 

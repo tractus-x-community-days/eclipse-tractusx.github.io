@@ -93,7 +93,7 @@ The tutorial setup provides dummy submodels for the data exchange in the tutoria
 
 ## The Tractus-X Data Space Architecture
 
-![cx_architecture](@site/static/img/architecture.drawio.svg)
+![cx_architecture](@site/static/img/architecture.svg)
 
 ## Notice
 

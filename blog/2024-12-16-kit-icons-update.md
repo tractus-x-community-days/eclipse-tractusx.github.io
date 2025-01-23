@@ -12,7 +12,7 @@ authors:
     email: thibault.grandemenge@catena-x.net
 ---
 
-![KITs landscape](@site/static/img/kits/KIT_landscape.drawio.svg)
+![KITs landscape](@site/static/img/kits/KIT_landscape.svg)
 
 Hello Tractus-X community,
 
