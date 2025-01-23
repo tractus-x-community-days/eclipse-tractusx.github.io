@@ -36,7 +36,6 @@ The core DCM business process is executed by two roles and uses two APIs as well
 
 Figure: *Basic DCM user journey*
 
-<!--
 ```mermaid
 journey
     title Basic DCM User Journey
@@ -59,7 +58,7 @@ section Collaborate
         Decide on Measures:6: Customer, Supplier
         Solve problems:9: Customer, Supplier
 ```
--->
+
 ### Personas
 
 The basic DCM user journey encompasses two key personas, each with distinct roles and responsibilities that highlight their value within the supply chain.
@@ -107,7 +106,6 @@ The supplier on the other hand has more options to solve problems. They can not 
 
 Figure: *Basic DCM process with demand part highlighted*
 
-<!--
 ```mermaid
 block-beta
 columns 4
@@ -132,18 +130,15 @@ space:4
 G1((" "))
 G2("Collaboration"):2
 G4((" "))
-
-##### FIX THE ARROWS BELOW FOR MERMAID DIAGRAM TO WORK and remove this LOC
-
-C1->C2
-C2->E2
-C3->E2
-C4->C3
-E2->G2
-G1->C1
-G2->G1
-G2->G4
-G4->C4
+C1-->C2
+C2-->E2
+C3-->E2
+C4-->C3
+E2-->G2
+G1-->C1
+G2-->G1
+G2-->G4
+G4-->C4
 
 classDef Demand fill:#FFA600,stroke:#FFFFFF,color:#000000
 classDef Capacity fill:#B3CB2D,stroke:#FFFFFF,color:#000000
@@ -156,8 +151,6 @@ class E2,G2 DemCap
 class B1,B4,C2,C3,G1,G4 Frame
 class C1 Highlite
 ```
-
--->
 
 A material demand represents the need for a particular product, part, component or material over a certain time period in a specified quantity. Demand quantities must refer to a time period of one calendar week (weekly buckets).
 
@@ -222,7 +215,6 @@ B["Demand data (optional)"] style B fill:#BF7100,color:#F4F2F3
 ![Demand Example](./resources/business-process_ExampleDemand.svg)
 
 Figure: *Visualizing demand quantities as bars*
-<!--
 ```mermaid
 ---
    config:
@@ -250,14 +242,10 @@ Figure: *Visualizing demand quantities as bars*
 ---
     xychart-beta
     title "Example: Demand Data"
-    x-axis [Week 1, Week 2, Week 3, Week 4, Week 5, Week 6, Week 7, Week 8]
- 
- ##### FIX THE ARROW BELOW and remove this LOC to get mermaid working   
-    
-    y-axis 0 -> 6000
+    x-axis [Week 1, Week 2, Week 3, Week 4, Week 5, Week 6, Week 7, Week 8] 
+    y-axis 0 --> 6000
     bar [3000, 3000, 3000, 3000, 4000, 4000, 4000, 5000]
 ```
--->
 
 ## Capacity Group
 

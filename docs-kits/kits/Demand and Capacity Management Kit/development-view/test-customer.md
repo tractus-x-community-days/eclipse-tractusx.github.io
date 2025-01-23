@@ -18,7 +18,8 @@ For an overview of these tests you should visit [Testing a DCM application](./ov
 
 ### Setup EDC
 
-This test ensures that the customer sets up its EDC.
+<details>
+<summary>This test ensures that the customer sets up its EDC.</summary>
 
 ```cucumber
 Feature: Customer: Prepare yourself
@@ -28,6 +29,8 @@ Scenario: Setup EDC
   When I check whether I have setup my EDC or not
   Then I should confirm that I have setup my EDC in the correct version successfully 
 ```
+
+</details>
 
 ### Register APIs as assets
 
